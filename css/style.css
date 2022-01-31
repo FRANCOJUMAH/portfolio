@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/black.jpg);
+    background-size:cover ;
+    background-position: center;
+}
+nav{
+   display: flex;
+   align-items:center;
+   justify-content: space-between;
+   padding-top: 40px;
+   padding-left:10%;
+   padding-right:10%;
+}
+.logo{
+color:white;
+font-size: 29px;
+}
+
+span{
+color:red;
+}
+nav ul li{
+list-style-type: none;
+display:inline-block;
+padding: 10px 22px;
+}
+nav ul li a {
+color: white;
+text-decoration:none;
+font-weight: bold;
+}
+nav ul li a: hover {
+transition: .4s;
+color: red;
+}
+.main{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align:center;
+}
+h1 {
+color: white;
+font-size: 80px;
+font-family: 'lucida caligraphy',sans-serif;
+text-transform: uppercase;
+font-weight: ;
+letter-spacing: 2px;
+margin-bottom: 10px;
+
+}
+p{
+   margin-bottom: 25px;
+   color: white;
+   font-size: 18px;
+   line-height: 1.7;
+   font-weight: 500;
+}
+button{
+    background: red;
+    padding: 12px 30px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: .3s;
+}
+button:hover{
+   background: transparent;
+   border: 2px solid red;
+   color: white;
+   transform: translateY(-10px);
+   cursor: pointer;
+}
+.links{
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.links h6{
+color: white;
+font-size: 20px;
+margin-right:50px;
+}
+.links .social a{
+  display:inline-block;
+  color: white;
+  margin-right: 10px;
+  transition: .3s;
+}
+.links .social a:hover{
+    transform: translateY(10px);
+}
+h7{
+   color: white;
+   font-size:15px;
+
+}
